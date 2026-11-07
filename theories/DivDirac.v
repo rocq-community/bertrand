@@ -18,7 +18,7 @@
     Proof of Bertrand's conjecture: DivDirac.v
                                          Laurent.Thery@inria.fr (2002)
   *********************************************************************)
-From Coq Require Import ArithRing.
+From Stdlib Require Import ArithRing.
 From Bertrand Require Export Div.
 From Bertrand Require Import Summation.
 

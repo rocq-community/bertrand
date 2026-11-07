@@ -18,8 +18,8 @@
     Proof of Bertrand's conjecture: Bertrand.v
                                          Laurent.Thery@inria.fr (2002)
   *********************************************************************)
-From Coq Require Export RIneq.
-From Coq Require Import Wf_nat Ranalysis Rtrigo ArithRing Lra.
+From Stdlib Require Export RIneq.
+From Stdlib Require Import Wf_nat Ranalysis Rtrigo ArithRing Lra.
 From Bertrand Require Export Raux PowerBinomial Check128 PrimeDirac.
 
 (** Upper Bound for (binonial 2n n) *)
