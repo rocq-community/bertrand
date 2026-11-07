@@ -19,10 +19,10 @@
                                          Laurent.Thery@inria.fr (2002)
   *********************************************************************)
 
-From Coq Require Export Arith.
-From Coq Require Import ZArith Classical_Prop.
-From Coq Require Import Rbase Rfunctions Ranalysis Rtrigo.
-From Coq Require Export Rpower.
+From Stdlib Require Export Arith.
+From Stdlib Require Import ZArith Classical_Prop.
+From Stdlib Require Import Rbase Rfunctions Ranalysis Rtrigo.
+From Stdlib Require Export Rpower.
 From Bertrand Require Export Misc Div.
 
 #[export] Hint Resolve exp_pos: real.

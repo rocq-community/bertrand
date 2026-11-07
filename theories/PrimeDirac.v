@@ -17,7 +17,7 @@
     Proof of Bertrand's conjecture: PrimeDirac.v
                                          Laurent.Thery@inria.fr (2002)
   *********************************************************************)
-From Coq Require Import ArithRing Wf_nat Lia.
+From Stdlib Require Import ArithRing Wf_nat Lia.
 From Bertrand Require Export PowerDiv Binomial Product.
 
 Theorem prime_div_factorial_le :

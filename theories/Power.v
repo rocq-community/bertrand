@@ -19,7 +19,7 @@
                                          Laurent.Thery@inria.fr (2002)
   *********************************************************************)
 
-From Coq Require Import Arith ArithRing.
+From Stdlib Require Import Arith ArithRing.
 From Bertrand Require Export Misc.
 
 (**  (power x n) computes x to the power n *)

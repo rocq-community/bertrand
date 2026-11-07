@@ -9,6 +9,7 @@ on:
   pull_request:
     branches:
       - '**'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -17,12 +18,10 @@ jobs:
     strategy:
       matrix:
         image:
-          - 'coqorg/coq:dev'
-          - 'coqorg/coq:8.19'
-          - 'coqorg/coq:8.18'
+          - 'rocq/rocq-prover:9.2'
       fail-fast: false
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: coq-community/docker-coq-action@v1
         with:
           opam_file: 'coq-bertrand.opam'

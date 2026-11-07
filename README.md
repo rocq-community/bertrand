@@ -34,12 +34,11 @@ an application of the postulate to compute partitions.
 
 - Author(s):
   - Laurent Théry (initial)
-- Coq-community maintainer(s):
+- Rocq-community maintainer(s):
   - Laurent Théry ([**@thery**](https://github.com/thery))
 - License: [GNU Lesser General Public License v2.1 or later](LICENSE)
-- Compatible Coq versions: Coq 8.18 or later
 - Additional dependencies: none
-- Coq namespace: `Bertrand`
+- Rocq/Coq namespace: `Bertrand`
 - Related publication(s):
   - [Proving Pearl: Knuth's Algorithm for Prime Numbers](https://link.springer.com/chapter/10.1007%2F10930755_20) doi:[10.1007/10930755_20](https://doi.org/10.1007/10930755_20)
 
@@ -49,15 +48,19 @@ The easiest way to install the latest released version of Bertrand
 is via [OPAM](https://opam.ocaml.org/doc/Install.html):
 
 ```shell
-opam repo add coq-released https://coq.inria.fr/opam/released
+opam repo add rocq-released https://rocq-prover.org/opam/released
 opam install coq-bertrand
 ```
 
-To instead build and install manually, do:
+To instead build and install manually, you need to make sure that all the
+libraries this development depends on are installed.  The easiest way to do that
+is still to rely on opam:
 
 ``` shell
 git clone https://github.com/coq-community/bertrand.git
 cd bertrand
+opam repo add rocq-released https://rocq-prover.org/opam/released
+opam install --deps-only .
 make   # or make -j <number-of-cores-on-your-machine> 
 make install
 ```
@@ -104,12 +107,12 @@ To replay the proof of correctness for the WhyML program for computing primes,
 first make sure the following packages are installed (in addition to Coq 8.18.0
 and the proof of Bertrand's postulate):
 
-- [Alt-Ergo 2.5.4](https://alt-ergo.ocamlpro.com)
-- [Why3 1.4.1](http://why3.lri.fr) and its Coq library
+- [Alt-Ergo 2.6.4](https://alt-ergo.ocamlpro.com)
+- [Why3 1.9.0](http://why3.lri.fr) and its Coq library
 
 These packages can be installed via OPAM using the following command:
 ```
-opam install alt-ergo.2.5.4 why3.1.7.2 why3-coq.1.7.2
+opam install alt-ergo.2.6.4 why3.1.9.0 why3-coq.1.9.0
 ```
 Then, the proof can be replayed by running
 ```

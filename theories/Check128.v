@@ -19,7 +19,7 @@
                                          Laurent.Thery@inria.fr (2002)
   *********************************************************************)
 
-From Coq Require Import Arith.
+From Stdlib Require Import Arith.
 From Bertrand Require Export Prime Misc.
 
 (** Check if there is a prime between n and n+m *)

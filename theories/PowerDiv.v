@@ -17,7 +17,7 @@
     Proof of Bertrand's conjecture: PowerDiv.v
                                          Laurent.Thery@inria.fr (2002)
   *********************************************************************)
-From Coq Require Import ArithRing.
+From Stdlib Require Import ArithRing.
 From Bertrand Require Export Div Gcd Factorial_bis DivDirac Summation.
 
 (** Auxillary function that tries to find the maximal exponent of q that

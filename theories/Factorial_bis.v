@@ -19,7 +19,7 @@
                                          Laurent.Thery@inria.fr (2002)
   *********************************************************************)
 
-From Coq Require Import Arith.
+From Stdlib Require Import Arith.
 
 (**  	Factorial*)
  
