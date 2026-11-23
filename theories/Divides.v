@@ -19,8 +19,8 @@
                                          Laurent.Thery@inria.fr (2002)
   *********************************************************************)
 
-From Coq Require Import Arith ArithRing Peano_dec Wf_nat.
-From Coq Require Export Euclid.
+From Stdlib Require Import Arith ArithRing Peano_dec Wf_nat.
+From Stdlib Require Export Euclid.
 From Bertrand Require Export Misc Power.
 
 (** Division as a predicate *)

@@ -18,8 +18,8 @@
     Proof of Bertrand's conjecture: Div.v
                                          Laurent.Thery@inria.fr (2002)
   *********************************************************************)
-From Coq Require Import ArithRing.
-From Coq Require Export Arith.
+From Stdlib Require Import ArithRing.
+From Stdlib Require Export Arith.
 From Bertrand Require Export Power Divides.
 From Bertrand Require Import Misc.
 

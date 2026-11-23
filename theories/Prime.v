@@ -18,7 +18,7 @@
     Proof of Bertrand's conjecture: Prime.v
                                          Laurent.Thery@inria.fr (2002)
   *********************************************************************)
-From Coq Require Import Arith ArithRing Wf_nat.
+From Stdlib Require Import Arith ArithRing Wf_nat.
 From Bertrand Require Export Divides.
 From Bertrand Require Import Div.
 

@@ -18,7 +18,7 @@
     Proof of Bertrand's conjecture: Misc.v
                                          Laurent.Thery@inria.fr (2002)
   *********************************************************************)
-From Coq Require Import Arith ArithRing.
+From Stdlib Require Import Arith ArithRing.
 From Bertrand Require Export sTactic.
 
 (** Some facts about arithmetics *)

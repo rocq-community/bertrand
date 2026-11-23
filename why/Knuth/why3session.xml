@@ -2,90 +2,90 @@
 <!DOCTYPE why3session PUBLIC "-//Why3//proof session v5//EN"
 "https://www.why3.org/why3session.dtd">
 <why3session shape_version="6">
-<prover id="0" name="Alt-Ergo" version="2.5.4" timelimit="5" steplimit="0" memlimit="1000"/>
-<prover id="2" name="Coq" version="8.18.0" timelimit="0" steplimit="0" memlimit="0"/>
+<prover id="1" name="Coq" version="9.2" timelimit="0" steplimit="0" memlimit="0"/>
+<prover id="3" name="Alt-Ergo" version="2.6.4" timelimit="5" steplimit="0" memlimit="1000"/>
 <file format="whyml" proved="true">
 <path name=".."/><path name="Knuth.mlw"/>
 <theory name="Knuth" proved="true">
  <goal name="prime&#39;vc" expl="VC for prime" proved="true">
  <transf name="split_vc" proved="true" >
   <goal name="prime&#39;vc.0" expl="index in array bounds" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="10"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="10"/></proof>
   </goal>
   <goal name="prime&#39;vc.1" expl="loop invariant init" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="48"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="48"/></proof>
   </goal>
   <goal name="prime&#39;vc.2" expl="loop invariant init" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="25"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="24"/></proof>
   </goal>
   <goal name="prime&#39;vc.3" expl="loop invariant init" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="40"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="41"/></proof>
   </goal>
   <goal name="prime&#39;vc.4" expl="loop invariant init" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="28"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="27"/></proof>
   </goal>
   <goal name="prime&#39;vc.5" expl="loop invariant init" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="34"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="32"/></proof>
   </goal>
   <goal name="prime&#39;vc.6" expl="loop invariant init" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="28"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="28"/></proof>
   </goal>
   <goal name="prime&#39;vc.7" expl="loop invariant init" proved="true">
-  <proof prover="0"><result status="valid" time="0.030000" steps="155"/></proof>
+  <proof prover="3"><result status="valid" time="0.030000" steps="157"/></proof>
   </goal>
   <goal name="prime&#39;vc.8" expl="loop invariant init" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="26"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="26"/></proof>
   </goal>
   <goal name="prime&#39;vc.9" expl="precondition" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="33"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="33"/></proof>
   </goal>
   <goal name="prime&#39;vc.10" expl="loop invariant init" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="41"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="48"/></proof>
   </goal>
   <goal name="prime&#39;vc.11" expl="loop invariant init" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="41"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="47"/></proof>
   </goal>
   <goal name="prime&#39;vc.12" expl="index in array bounds" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="47"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="50"/></proof>
   </goal>
   <goal name="prime&#39;vc.13" expl="index in array bounds" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="51"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="53"/></proof>
   </goal>
   <goal name="prime&#39;vc.14" expl="precondition" proved="true">
-  <proof prover="0"><result status="valid" time="0.030000" steps="225"/></proof>
+  <proof prover="3"><result status="valid" time="0.030000" steps="261"/></proof>
   </goal>
   <goal name="prime&#39;vc.15" expl="loop variant decrease" proved="true">
-  <proof prover="0"><result status="valid" time="0.030000" steps="164"/></proof>
+  <proof prover="3"><result status="valid" time="0.030000" steps="192"/></proof>
   </goal>
   <goal name="prime&#39;vc.16" expl="loop invariant preservation" proved="true">
-  <proof prover="0"><result status="valid" time="0.040000" steps="276"/></proof>
+  <proof prover="3"><result status="valid" time="0.040000" steps="327"/></proof>
   </goal>
   <goal name="prime&#39;vc.17" expl="loop invariant preservation" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="57"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="59"/></proof>
   </goal>
   <goal name="prime&#39;vc.18" expl="loop variant decrease" proved="true">
-  <proof prover="0"><result status="valid" time="0.020000" steps="94"/></proof>
+  <proof prover="3"><result status="valid" time="0.020000" steps="122"/></proof>
   </goal>
   <goal name="prime&#39;vc.19" expl="loop invariant preservation" proved="true">
-  <proof prover="0"><result status="valid" time="0.030000" steps="206"/></proof>
+  <proof prover="3"><result status="valid" time="0.030000" steps="280"/></proof>
   </goal>
   <goal name="prime&#39;vc.20" expl="loop invariant preservation" proved="true">
   <transf name="split_vc" proved="true" >
    <goal name="prime&#39;vc.20.0" expl="loop invariant preservation" proved="true">
-   <proof prover="0"><result status="valid" time="0.010000" steps="57"/></proof>
+   <proof prover="3"><result status="valid" time="0.010000" steps="59"/></proof>
    </goal>
    <goal name="prime&#39;vc.20.1" expl="loop invariant preservation" proved="true">
    <transf name="assert" proved="true" arg1="(a [j1] * s &lt;= s * s)">
     <goal name="prime&#39;vc.20.1.0" expl="asserted formula" proved="true">
-    <proof prover="0"><result status="valid" time="0.020000" steps="85"/></proof>
+    <proof prover="3"><result status="valid" time="0.020000" steps="120"/></proof>
     </goal>
     <goal name="prime&#39;vc.20.1.1" expl="loop invariant preservation" proved="true">
     <transf name="assert" proved="true" arg1="(a[j1] * a[j1] &lt;= s * a[j1])">
      <goal name="prime&#39;vc.20.1.1.0" expl="asserted formula" proved="true">
-     <proof prover="0"><result status="valid" time="0.060000" steps="357"/></proof>
+     <proof prover="3"><result status="valid" time="0.060000" steps="738"/></proof>
      </goal>
      <goal name="prime&#39;vc.20.1.1.1" expl="loop invariant preservation" proved="true">
-     <proof prover="0"><result status="valid" time="0.030000" steps="138"/></proof>
+     <proof prover="3"><result status="valid" time="0.030000" steps="202"/></proof>
      </goal>
     </transf>
     </goal>
@@ -94,51 +94,51 @@
   </transf>
   </goal>
   <goal name="prime&#39;vc.21" expl="index in array bounds" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="53"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="55"/></proof>
   </goal>
   <goal name="prime&#39;vc.22" expl="loop variant decrease" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="65"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="75"/></proof>
   </goal>
   <goal name="prime&#39;vc.23" expl="loop invariant preservation" proved="true">
-  <proof prover="0"><result status="valid" time="0.020000" steps="156"/></proof>
+  <proof prover="3"><result status="valid" time="0.020000" steps="174"/></proof>
   </goal>
   <goal name="prime&#39;vc.24" expl="loop invariant preservation" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="67"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="77"/></proof>
   </goal>
   <goal name="prime&#39;vc.25" expl="loop invariant preservation" proved="true">
-  <proof prover="0"><result status="valid" time="0.020000" steps="119"/></proof>
+  <proof prover="3"><result status="valid" time="0.020000" steps="130"/></proof>
   </goal>
   <goal name="prime&#39;vc.26" expl="loop invariant preservation" proved="true">
-  <proof prover="0"><result status="valid" time="0.040000" steps="386"/></proof>
+  <proof prover="3"><result status="valid" time="0.040000" steps="395"/></proof>
   </goal>
   <goal name="prime&#39;vc.27" expl="loop invariant preservation" proved="true">
   <transf name="assert" proved="true" arg1="(k &lt; i - 1 \/ k = i - 1)" arg2="as" arg3="h">
    <goal name="prime&#39;vc.27.0" expl="asserted formula" proved="true">
-   <proof prover="0"><result status="valid" time="0.027326" steps="75"/></proof>
+   <proof prover="3"><result status="valid" time="0.027326" steps="83"/></proof>
    </goal>
    <goal name="prime&#39;vc.27.1" expl="loop invariant preservation" proved="true">
    <transf name="destruct" proved="true" arg1="h">
     <goal name="prime&#39;vc.27.1.0" expl="loop invariant preservation" proved="true">
     <transf name="assert" proved="true" arg1="(a[k] = a1[k])">
      <goal name="prime&#39;vc.27.1.0.0" expl="asserted formula" proved="true">
-     <proof prover="0"><result status="valid" time="0.043044" steps="244"/></proof>
+     <proof prover="3"><result status="valid" time="0.043044" steps="257"/></proof>
      </goal>
      <goal name="prime&#39;vc.27.1.0.1" expl="loop invariant preservation" proved="true">
-     <proof prover="0"><result status="valid" time="0.037837" steps="143"/></proof>
+     <proof prover="3"><result status="valid" time="0.037837" steps="156"/></proof>
      </goal>
     </transf>
     </goal>
     <goal name="prime&#39;vc.27.1.1" expl="loop invariant preservation" proved="true">
     <transf name="apply" proved="true" arg1="small_divisors">
      <goal name="prime&#39;vc.27.1.1.0" expl="apply premises" proved="true">
-     <proof prover="0"><result status="valid" time="0.032985" steps="77"/></proof>
+     <proof prover="3"><result status="valid" time="0.032985" steps="88"/></proof>
      </goal>
      <goal name="prime&#39;vc.27.1.1.1" expl="apply premises" proved="true">
      <transf name="split_vc" proved="true" >
       <goal name="prime&#39;vc.27.1.1.1.0" expl="apply premises" proved="true">
       <transf name="assert" proved="true" arg1="(in_array d a1 0 (i - 1))" arg2="as" arg3="Hi">
        <goal name="prime&#39;vc.27.1.1.1.0.0" expl="asserted formula" proved="true">
-       <proof prover="0"><result status="valid" time="5.457996" steps="25680"/></proof>
+       <proof prover="3"><result status="valid" time="0.247120" steps="2132"/></proof>
        </goal>
        <goal name="prime&#39;vc.27.1.1.1.0.1" expl="apply premises" proved="true">
        <transf name="unfold" proved="true" arg1="in_array" arg2="in" arg3="Hi">
@@ -153,22 +153,22 @@
             <goal name="prime&#39;vc.27.1.1.1.0.1.0.0.0.0.0" expl="asserted formula" proved="true">
             <transf name="assert" proved="true" arg1="(x * x &lt;= y * x /\ x * y &lt;= y * y)">
              <goal name="prime&#39;vc.27.1.1.1.0.1.0.0.0.0.0.0" expl="asserted formula" proved="true">
-             <proof prover="0"><result status="valid" time="0.043956" steps="341"/></proof>
+             <proof prover="3"><result status="valid" time="0.043956" steps="393"/></proof>
              </goal>
              <goal name="prime&#39;vc.27.1.1.1.0.1.0.0.0.0.0.1" expl="asserted formula" proved="true">
-             <proof prover="0"><result status="valid" time="0.035121" steps="103"/></proof>
+             <proof prover="3"><result status="valid" time="0.035121" steps="135"/></proof>
              </goal>
             </transf>
             </goal>
            </transf>
            </goal>
            <goal name="prime&#39;vc.27.1.1.1.0.1.0.0.0.1" expl="asserted formula" proved="true">
-           <proof prover="0"><result status="valid" time="0.086062" steps="406"/></proof>
+           <proof prover="3"><result status="valid" time="0.086062" steps="421"/></proof>
            </goal>
           </transf>
           </goal>
           <goal name="prime&#39;vc.27.1.1.1.0.1.0.0.1" expl="apply premises" proved="true">
-          <proof prover="0"><result status="valid" time="0.044804" steps="187"/></proof>
+          <proof prover="3"><result status="valid" time="0.044804" steps="204"/></proof>
           </goal>
          </transf>
          </goal>
@@ -189,27 +189,27 @@
   <goal name="prime&#39;vc.28" expl="loop invariant preservation" proved="true">
   <transf name="assert" proved="true" arg1="(j &lt; i - 1 \/ j = i - 1)" arg2="as" arg3="h">
    <goal name="prime&#39;vc.28.0" expl="asserted formula" proved="true">
-   <proof prover="0"><result status="valid" time="0.031720" steps="77"/></proof>
+   <proof prover="3"><result status="valid" time="0.031720" steps="84"/></proof>
    </goal>
    <goal name="prime&#39;vc.28.1" expl="loop invariant preservation" proved="true">
    <transf name="destruct_rec" proved="true" arg1="h">
     <goal name="prime&#39;vc.28.1.0" expl="loop invariant preservation" proved="true">
     <transf name="assert" proved="true" arg1="(a1[k] &lt; a1[j])">
      <goal name="prime&#39;vc.28.1.0.0" expl="asserted formula" proved="true">
-     <proof prover="0"><result status="valid" time="0.042552" steps="140"/></proof>
+     <proof prover="3"><result status="valid" time="0.042552" steps="153"/></proof>
      </goal>
      <goal name="prime&#39;vc.28.1.0.1" expl="loop invariant preservation" proved="true">
-     <proof prover="0"><result status="valid" time="0.046071" steps="277"/></proof>
+     <proof prover="3"><result status="valid" time="0.046071" steps="287"/></proof>
      </goal>
     </transf>
     </goal>
     <goal name="prime&#39;vc.28.1.1" expl="loop invariant preservation" proved="true">
     <transf name="assert" proved="true" arg1="(a1[k] &lt; m1)">
      <goal name="prime&#39;vc.28.1.1.0" expl="asserted formula" proved="true">
-     <proof prover="0"><result status="valid" time="0.053601" steps="332"/></proof>
+     <proof prover="3"><result status="valid" time="0.053601" steps="347"/></proof>
      </goal>
      <goal name="prime&#39;vc.28.1.1.1" expl="loop invariant preservation" proved="true">
-     <proof prover="0"><result status="valid" time="0.047744" steps="281"/></proof>
+     <proof prover="3"><result status="valid" time="0.047744" steps="293"/></proof>
      </goal>
     </transf>
     </goal>
@@ -220,17 +220,17 @@
   <goal name="prime&#39;vc.29" expl="loop invariant preservation" proved="true">
   <transf name="assert" proved="true" arg1="(k = m1 \/ k &lt;= a1[i - 2])">
    <goal name="prime&#39;vc.29.0" expl="asserted formula" proved="true">
-   <proof prover="0"><result status="valid" time="0.040995" steps="175"/></proof>
+   <proof prover="3"><result status="valid" time="0.040995" steps="202"/></proof>
    </goal>
    <goal name="prime&#39;vc.29.1" expl="loop invariant preservation" proved="true">
    <transf name="destruct" proved="true" arg1="h">
     <goal name="prime&#39;vc.29.1.0" expl="loop invariant preservation" proved="true">
-    <proof prover="0"><result status="valid" time="0.072590" steps="586"/></proof>
+    <proof prover="3"><result status="valid" time="0.072590" steps="623"/></proof>
     </goal>
     <goal name="prime&#39;vc.29.1.1" expl="loop invariant preservation" proved="true">
     <transf name="assert" proved="true" arg1="(in_array k a1 0 (i - 1))">
      <goal name="prime&#39;vc.29.1.1.0" expl="asserted formula" proved="true">
-     <proof prover="0"><result status="valid" time="0.047459" steps="147"/></proof>
+     <proof prover="3"><result status="valid" time="0.047459" steps="160"/></proof>
      </goal>
      <goal name="prime&#39;vc.29.1.1.1" expl="loop invariant preservation" proved="true">
      <transf name="unfold" proved="true" arg1="in_array" arg2="in" arg3="h">
@@ -241,7 +241,7 @@
         <goal name="prime&#39;vc.29.1.1.1.0.0.0" expl="VC for prime" proved="true">
         <transf name="exists" proved="true" arg1="x">
          <goal name="prime&#39;vc.29.1.1.1.0.0.0.0" proved="true">
-         <proof prover="0"><result status="valid" time="0.056641" steps="299"/></proof>
+         <proof prover="3"><result status="valid" time="0.056641" steps="313"/></proof>
          </goal>
         </transf>
         </goal>
@@ -258,25 +258,25 @@
   </transf>
   </goal>
   <goal name="prime&#39;vc.30" expl="loop invariant preservation" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="71"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="78"/></proof>
   </goal>
   <goal name="prime&#39;vc.31" expl="loop variant decrease" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="51"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="57"/></proof>
   </goal>
   <goal name="prime&#39;vc.32" expl="loop invariant preservation" proved="true">
   <transf name="split_vc" proved="true" >
    <goal name="prime&#39;vc.32.0" expl="loop invariant preservation" proved="true">
-   <proof prover="0"><result status="valid" time="0.010000" steps="51"/></proof>
+   <proof prover="3"><result status="valid" time="0.010000" steps="57"/></proof>
    </goal>
    <goal name="prime&#39;vc.32.1" expl="loop invariant preservation" proved="true">
    <transf name="assert" proved="true" arg1="(exists x. prime x /\ a[i1 - 1] &lt; x &lt; 2 * a[i1 - 1])">
     <goal name="prime&#39;vc.32.1.0" expl="asserted formula" proved="true">
     <transf name="assert" proved="true" arg1="(2 &lt;= a[i1 - 1])">
      <goal name="prime&#39;vc.32.1.0.0" expl="asserted formula" proved="true">
-     <proof prover="0"><result status="valid" time="0.026750" steps="51"/></proof>
+     <proof prover="3"><result status="valid" time="0.026750" steps="57"/></proof>
      </goal>
      <goal name="prime&#39;vc.32.1.0.1" expl="asserted formula" proved="true">
-     <proof prover="2"><path name="Knuth_Knuth_h_6.v"/><result status="valid" time="0.458777"/></proof>
+     <proof prover="1"><path name="Knuth_Knuth_h_6.v"/><result status="valid" time="0.683609"/></proof>
      </goal>
     </transf>
     </goal>
@@ -285,40 +285,40 @@
      <goal name="prime&#39;vc.32.1.1.0" expl="loop invariant preservation" proved="true">
      <transf name="assert" proved="true" arg1="(m1 &lt;= x)">
       <goal name="prime&#39;vc.32.1.1.0.0" expl="asserted formula" proved="true">
-      <proof prover="0"><result status="valid" time="0.036626" steps="88"/></proof>
+      <proof prover="3"><result status="valid" time="0.036626" steps="99"/></proof>
       </goal>
       <goal name="prime&#39;vc.32.1.1.0.1" expl="loop invariant preservation" proved="true">
       <transf name="assert" proved="true" arg1="(odd x)">
        <goal name="prime&#39;vc.32.1.1.0.1.0" expl="asserted formula" proved="true">
-       <proof prover="0"><result status="valid" time="0.028285" steps="93"/></proof>
+       <proof prover="3"><result status="valid" time="0.028285" steps="106"/></proof>
        </goal>
        <goal name="prime&#39;vc.32.1.1.0.1.1" expl="loop invariant preservation" proved="true">
        <transf name="assert" proved="true" arg1="(m1 &lt; x \/ x = m1 \/ m1 &lt; x)">
         <goal name="prime&#39;vc.32.1.1.0.1.1.0" expl="asserted formula" proved="true">
-        <proof prover="0"><result status="valid" time="0.030445" steps="61"/></proof>
+        <proof prover="3"><result status="valid" time="0.030445" steps="66"/></proof>
         </goal>
         <goal name="prime&#39;vc.32.1.1.0.1.1.1" expl="loop invariant preservation" proved="true">
         <transf name="destruct_rec" proved="true" arg1="h">
          <goal name="prime&#39;vc.32.1.1.0.1.1.1.0" expl="loop invariant preservation" proved="true">
-         <proof prover="0"><result status="valid" time="0.031200" steps="112"/></proof>
+         <proof prover="3"><result status="valid" time="0.025945" steps="124"/></proof>
          </goal>
          <goal name="prime&#39;vc.32.1.1.0.1.1.1.1" expl="loop invariant preservation" proved="true">
          <transf name="assert" proved="true" arg1="(divides a[j] m1)">
           <goal name="prime&#39;vc.32.1.1.0.1.1.1.1.0" expl="asserted formula" proved="true">
-          <proof prover="0"><result status="valid" time="0.032759" steps="63"/></proof>
+          <proof prover="3"><result status="valid" time="0.032759" steps="72"/></proof>
           </goal>
           <goal name="prime&#39;vc.32.1.1.0.1.1.1.1.1" expl="loop invariant preservation" proved="true">
           <transf name="assert" proved="true" arg1="(prime a[j])">
            <goal name="prime&#39;vc.32.1.1.0.1.1.1.1.1.0" expl="asserted formula" proved="true">
-           <proof prover="0"><result status="valid" time="0.040774" steps="108"/></proof>
+           <proof prover="3"><result status="valid" time="0.040774" steps="120"/></proof>
            </goal>
            <goal name="prime&#39;vc.32.1.1.0.1.1.1.1.1.1" expl="loop invariant preservation" proved="true">
            <transf name="assert" proved="true" arg1="(a[j] &lt; m1)">
             <goal name="prime&#39;vc.32.1.1.0.1.1.1.1.1.1.0" expl="asserted formula" proved="true">
-            <proof prover="0"><result status="valid" time="0.039412" steps="222"/></proof>
+            <proof prover="3"><result status="valid" time="0.039412" steps="252"/></proof>
             </goal>
             <goal name="prime&#39;vc.32.1.1.0.1.1.1.1.1.1.1" expl="loop invariant preservation" proved="true">
-            <proof prover="0"><result status="valid" time="0.194619" steps="1359"/></proof>
+            <proof prover="3"><result status="valid" time="0.415555" steps="5747"/></proof>
             </goal>
            </transf>
            </goal>
@@ -327,7 +327,7 @@
          </transf>
          </goal>
          <goal name="prime&#39;vc.32.1.1.0.1.1.1.2" expl="loop invariant preservation" proved="true">
-         <proof prover="0"><result status="valid" time="0.025945" steps="112"/></proof>
+         <proof prover="3"><result status="valid" time="0.031200" steps="124"/></proof>
          </goal>
         </transf>
         </goal>
@@ -344,38 +344,38 @@
   </transf>
   </goal>
   <goal name="prime&#39;vc.33" expl="loop invariant preservation" proved="true">
-  <proof prover="0"><result status="valid" time="0.020000" steps="54"/></proof>
+  <proof prover="3"><result status="valid" time="0.020000" steps="58"/></proof>
   </goal>
   <goal name="prime&#39;vc.34" expl="loop invariant preservation" proved="true">
-  <proof prover="0"><result status="valid" time="0.020000" steps="85"/></proof>
+  <proof prover="3"><result status="valid" time="0.020000" steps="97"/></proof>
   </goal>
   <goal name="prime&#39;vc.35" expl="loop invariant preservation" proved="true">
   <transf name="assert" proved="true" arg1="(k &lt; m1 \/ k = m1 \/ k = m1 + 1)" arg2="as" arg3="h">
    <goal name="prime&#39;vc.35.0" expl="asserted formula" proved="true">
-   <proof prover="0"><result status="valid" time="0.010000" steps="60"/></proof>
+   <proof prover="3"><result status="valid" time="0.010000" steps="64"/></proof>
    </goal>
    <goal name="prime&#39;vc.35.1" expl="loop invariant preservation" proved="true">
    <transf name="destruct_rec" proved="true" arg1="h">
     <goal name="prime&#39;vc.35.1.0" expl="loop invariant preservation" proved="true">
-    <proof prover="0"><result status="valid" time="0.020000" steps="92"/></proof>
+    <proof prover="3"><result status="valid" time="0.020000" steps="104"/></proof>
     </goal>
     <goal name="prime&#39;vc.35.1.1" expl="loop invariant preservation" proved="true">
     <transf name="assert" proved="true" arg1="(divides a[j] m1 /\ 1 &lt; a[j] &lt;= a[i1 - 1])">
      <goal name="prime&#39;vc.35.1.1.0" expl="asserted formula" proved="true">
      <transf name="split_vc" proved="true" >
       <goal name="prime&#39;vc.35.1.1.0.0" proved="true">
-      <proof prover="0"><result status="valid" time="0.027812" steps="62"/></proof>
+      <proof prover="3"><result status="valid" time="0.027812" steps="68"/></proof>
       </goal>
       <goal name="prime&#39;vc.35.1.1.0.1" proved="true">
-      <proof prover="0"><result status="valid" time="0.303269" steps="2328"/></proof>
+      <proof prover="3"><result status="valid" time="0.561781" steps="9894"/></proof>
       </goal>
       <goal name="prime&#39;vc.35.1.1.0.2" proved="true">
-      <proof prover="0"><result status="valid" time="0.035937" steps="132"/></proof>
+      <proof prover="3"><result status="valid" time="0.035937" steps="145"/></proof>
       </goal>
      </transf>
      </goal>
      <goal name="prime&#39;vc.35.1.1.1" expl="loop invariant preservation" proved="true">
-     <proof prover="0"><result status="valid" time="2.095591" steps="10424"/></proof>
+     <proof prover="3"><result status="valid" time="4.175914" steps="49971"/></proof>
      </goal>
     </transf>
     </goal>
@@ -384,18 +384,18 @@
      <goal name="prime&#39;vc.35.1.2.0" expl="asserted formula" proved="true">
      <transf name="split_vc" proved="true" >
       <goal name="prime&#39;vc.35.1.2.0.0" proved="true">
-      <proof prover="0"><result status="valid" time="0.025813" steps="62"/></proof>
+      <proof prover="3"><result status="valid" time="0.025813" steps="68"/></proof>
       </goal>
       <goal name="prime&#39;vc.35.1.2.0.1" proved="true">
-      <proof prover="0"><result status="valid" time="0.311235" steps="2341"/></proof>
+      <proof prover="3"><result status="valid" time="0.519595" steps="9925"/></proof>
       </goal>
       <goal name="prime&#39;vc.35.1.2.0.2" proved="true">
-      <proof prover="0"><result status="valid" time="0.036019" steps="134"/></proof>
+      <proof prover="3"><result status="valid" time="0.036019" steps="149"/></proof>
       </goal>
      </transf>
      </goal>
      <goal name="prime&#39;vc.35.1.2.1" expl="loop invariant preservation" proved="true">
-     <proof prover="0"><result status="valid" time="0.047076" steps="279"/></proof>
+     <proof prover="3"><result status="valid" time="0.047076" steps="292"/></proof>
      </goal>
     </transf>
     </goal>
@@ -404,25 +404,25 @@
   </transf>
   </goal>
   <goal name="prime&#39;vc.36" expl="loop invariant preservation" proved="true">
-  <proof prover="0"><result status="valid" time="0.030000" steps="100"/></proof>
+  <proof prover="3"><result status="valid" time="0.030000" steps="112"/></proof>
   </goal>
   <goal name="prime&#39;vc.37" expl="loop invariant preservation" proved="true">
-  <proof prover="0"><result status="valid" time="0.030000" steps="103"/></proof>
+  <proof prover="3"><result status="valid" time="0.030000" steps="115"/></proof>
   </goal>
   <goal name="prime&#39;vc.38" expl="loop invariant preservation" proved="true">
-  <proof prover="0"><result status="valid" time="0.020000" steps="92"/></proof>
+  <proof prover="3"><result status="valid" time="0.020000" steps="105"/></proof>
   </goal>
   <goal name="prime&#39;vc.39" expl="loop invariant preservation" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="56"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="58"/></proof>
   </goal>
   <goal name="prime&#39;vc.40" expl="postcondition" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="67"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="67"/></proof>
   </goal>
   <goal name="prime&#39;vc.41" expl="postcondition" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="67"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="68"/></proof>
   </goal>
   <goal name="prime&#39;vc.42" expl="postcondition" proved="true">
-  <proof prover="0"><result status="valid" time="0.010000" steps="73"/></proof>
+  <proof prover="3"><result status="valid" time="0.010000" steps="73"/></proof>
   </goal>
  </transf>
  </goal>
